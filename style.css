@@ -5,6 +5,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.logo{
+  width: 100%;
+}
+
 .biglogo img{
   height: 180px;
   width: auto;
@@ -17,8 +21,7 @@ body {
 
 .FirstTitle{
     padding-top: 133px;
-    float:right;
-}
+ }
 
 .EditPic{
   padding-left: 55px;
@@ -63,15 +66,20 @@ body {
 #sec2 img{
   height: 432px;
 }
+
 #sec2 p{
   padding-top: 120px;
   font-size: 32px;
 }
 
+#sec .crusher{
+  height: 600px;
+}
+
 #sec3{
   /*width: 100%;*/
   min-height: 150px;
-  height: 670px;
+  height: 570px;
   background-repeat:no-repeat;
 }
 #sec4{
@@ -99,4 +107,14 @@ body {
 .banner{
   background-image: url('src/Shadowwarrior.jpg');
   height: 100%auto;
+}
+
+.col-table{
+  height: 30;
+}
+.text-Title{
+  text-align: center;
+}
+.text-Title p{
+  font-size: 72px;
 }
