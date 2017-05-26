@@ -6,7 +6,7 @@ body {
 }
 
 .logo{
-  width: 100%;
+  width: 100% ;
 }
 
 .biglogo img{
@@ -34,6 +34,7 @@ body {
 
 #box1 {
   min-height: 320px;
+  margin: 80px;
   /*background-image: url('src/alien-logi.png');*/
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
@@ -42,12 +43,15 @@ body {
 
 #sec1{
   /*width: 100%;*/
-  min-height: 100vh;
+  min-height: 680px;
   height: auto;
+  margin: 32px
+  padding-left:99px;
+  padding-top: 0px;
 }
 
 #sec1 p{
-  padding: 19px 0px 0px 11px  ;
+  padding-left: 11px  ;
   font-size: 32px;
 }
 
@@ -90,8 +94,7 @@ body {
 }
 #box1 img{
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 80px;
   transform: translate(-50%, 5%);
   z-index: 0;
 }
@@ -99,8 +102,6 @@ body {
 #box1 span{
   z-index: 2;
   position: absolute;
-  top: 30%;
-  left: 50%;
   transform: translate(100%, 500%);
 }
 
@@ -117,4 +118,10 @@ body {
 }
 .text-Title p{
   font-size: 72px;
+}
+.imageleftpadding{
+  padding: 55px
+}
+.textrightpadding{
+  color:#ecf0f1;
 }
