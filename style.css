@@ -1,5 +1,10 @@
 body {
 }
+
+.modal{
+    font-family: 'PT Sans', sans-serif;
+}
+
 .biglogo img{
   height: 180px;
   width: auto;
@@ -8,4 +13,90 @@ body {
 
 .introduce{
   margin-top: 70px;
+}
+
+.FirstTitle{
+    padding-top: 133px;
+    float:right;
+}
+
+.EditPic{
+  padding-left: 55px;
+}
+
+.modal-content .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#box1 {
+  min-height: 320px;
+  /*background-image: url('src/alien-logi.png');*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+}
+
+#sec1{
+  /*width: 100%;*/
+  min-height: 100vh;
+  height: auto;
+}
+
+#sec1 p{
+  padding: 19px 0px 0px 11px  ;
+  font-size: 32px;
+}
+
+#sec1 img{
+  padding-right: 60px;
+}
+
+#sec2{
+  /*width: 100%;*/
+  min-height: 150px;
+  height: auto;
+  background-color: black;
+  color:#ecf0f1;
+}
+
+#sec2 img{
+  height: 432px;
+}
+#sec2 p{
+  padding-top: 120px;
+  font-size: 32px;
+}
+
+#sec3{
+  /*width: 100%;*/
+  min-height: 150px;
+  height: 670px;
+  background-repeat:no-repeat;
+}
+#sec4{
+  /*width: 100%;*/
+  min-height: 150px;
+  height: auto;
+  background-color: black;
+}
+#box1 img{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  z-index: 0;
+}
+
+#box1 span{
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(100%, 500%);
+}
+
+.banner{
+  background-image: url('src/Shadowwarrior.jpg');
+  height: 100%auto;
 }
