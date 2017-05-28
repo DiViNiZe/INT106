@@ -1,4 +1,6 @@
 body {
+  margin: 0px;
+  padding: 0px;
 }
 
 .modal{
@@ -7,6 +9,7 @@ body {
 
 .logo{
   width: 100% ;
+
 }
 
 .biglogo img{
@@ -34,7 +37,7 @@ body {
 
 #box1 {
   min-height: 320px;
-  margin: 80px;
+  margin: 0px;
   /*background-image: url('src/alien-logi.png');*/
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
@@ -43,10 +46,9 @@ body {
 
 #sec1{
   /*width: 100%;*/
-  min-height: 680px;
+  min-height: 800px;
   height: auto;
-  margin: 32px
-  padding-left:99px;
+  padding-left:320px;
   padding-top: 0px;
 }
 
@@ -56,19 +58,21 @@ body {
 }
 
 #sec1 img{
-  padding-right: 60px;
+  margin-top: 120px;
+  left:25 0px;
+  width: 750px;
 }
 
 #sec2{
   /*width: 100%;*/
-  min-height: 150px;
-  height: auto;
+  height: 799px;
   background-color: black;
   color:#ecf0f1;
 }
 
 #sec2 img{
   height: 432px;
+  padding-left: 399px;
 }
 
 #sec2 p{
@@ -91,6 +95,7 @@ body {
   min-height: 150px;
   height: auto;
   background-color: black;
+  padding: 22px 22px 22px 0px;
 }
 #box1 img{
   position: absolute;
@@ -107,7 +112,8 @@ body {
 
 .banner{
   background-image: url('src/Shadowwarrior.jpg');
-  height: 100%auto;
+  min-height: 100% ;
+  background-position: right;
 }
 
 .col-table{
@@ -120,8 +126,13 @@ body {
   font-size: 72px;
 }
 .imageleftpadding{
-  padding: 55px
+  padding: 55px;
+  padding-left:0px;
 }
 .textrightpadding{
   color:#ecf0f1;
+  padding-top: 45px;
+}
+.forTable{
+  padding-left: 10px;
 }
